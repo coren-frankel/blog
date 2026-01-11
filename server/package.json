@@ -1,0 +1,41 @@
+{
+  "name": "server",
+  "version": "0.1.0",
+  "private": true,
+  "description": "A Strapi backend providing content management for the Law Blog app.",
+  "scripts": {
+    "build": "strapi build",
+    "console": "strapi console",
+    "deploy": "strapi deploy",
+    "dev": "strapi develop",
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "strapi": "strapi",
+    "upgrade": "pnpx @strapi/upgrade latest",
+    "upgrade:dry": "pnpx @strapi/upgrade latest --dry"
+  },
+  "dependencies": {
+    "@strapi/plugin-cloud": "5.33.2",
+    "@strapi/plugin-users-permissions": "5.33.2",
+    "@strapi/strapi": "5.33.2",
+    "pg": "8.16.3",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.30.3",
+    "styled-components": "^6.3.5"
+  },
+  "devDependencies": {
+    "@types/node": "^20.19.28",
+    "@types/react": "^18.3.27",
+    "@types/react-dom": "^18.3.7",
+    "typescript": "^5.9.3"
+  },
+  "engines": {
+    "node": ">=20.0.0 <=24.x.x",
+    "pnpm": ">=10.28.0"
+  },
+  "strapi": {
+    "uuid": "44060141-0046-4f12-a04f-594a3cc3f225",
+    "installId": "4d73c3149f9d0c1e03eb0ea276b2e8e869cda5bcb188386fb336c7cdd7790363"
+  }
+}

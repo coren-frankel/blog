@@ -16,6 +16,7 @@ const config = defineConfig({
     }),
     tailwindcss(),
     tanstackStart(),
+    // react's vite plugin must come after start's vite plugin
     viteReact(),
   ],
 });
